@@ -28,6 +28,12 @@
       ],
       "@app/common/*": [
         "./libs/common/src/*"
+      ],
+      "@app/kafka": [
+        "./libs/kafka/src"
+      ],
+      "@app/kafka/*": [
+        "./libs/kafka/src/*"
       ]
     }
   },
@@ -38,6 +44,12 @@
     },
     {
       "path": "./apps/auth-service/tsconfig.app.json"
+    },
+    {
+      "path": "./libs/common/tsconfig.lib.json"
+    },
+    {
+      "path": "./libs/kafka/tsconfig.lib.json"
     }
   ]
 }
