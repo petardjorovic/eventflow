@@ -2,10 +2,13 @@ export * from './common.module';
 export * from './common.service';
 
 // Constants
-export * from './constants'
+export * from './constants';
 
 // Interfaces
-export * from './interfaces'
+export * from './interfaces';
 
 // Utils
-export * from './utils'
+export * from './utils';
+
+// Dto
+export * from './dto';
